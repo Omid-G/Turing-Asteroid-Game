@@ -1,0 +1,41 @@
+LEDGEND OF WAR WIZARDS 
+By: Omid Ghayouri 
+
+Game Includes: 
+
+- Splash Menu (Name and Logo | Animation / Graphics) 
+
+- Game Menu 
+   - Controls menu (Smooth transitions)
+   - Objective menu (Smooth transitions)
+   - Real time feedback (displays a different icon when mouse is over a button)
+
+- Game
+   - Three Original Classes 
+       - CharacterClass x2 (Allows player to move a character Left and Right along the x-Axis | Character faces different direction depending on key pressed) 
+       - FireClass x2 (Allows player to shoot a fireball from the characters position along the y-Axis) 
+       - AsteroidClass (Set up in an array | spawns asteroids along the x-Axis randomly, Asteroids travel down the y-Axis) 
+   - Menu Class
+       - Calls Splash and Game Menu
+   - Collision Detection 
+       - Asteroid (Asteroids destruct when touching the ground or fireball) 
+       - FireBall (Fireballs destruct when touching another asteroid or going off screen) 
+   - Score 
+       - Health (Game keeps track of health | everytime an asteroid hits the floor 10 hearts are subtracted from health) 
+       - Player Score (Game keeps track of Players Score | everytime the player hits an asteroid with a fireball 100 points are added to player score) 
+
+- End Menu 
+   - Displays player scores
+   - Allows player to restart game via SHIFT key 
+
+- Miscellaneous
+   - Original graphics created using Photoshop (excluding Game Background) 
+   - Music for Splash Menu, Game Menu, Game and End Menu 
+
+Some things I could have included (If I had more time) 
+- Seperate levels (Asteroid speed increases as Levels increase [based on time]) 
+- Ability for player to choose character and or colour 
+- Ability for player to choose background 
+- Seperate graphics for collision 
+       
+   

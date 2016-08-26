@@ -1,0 +1,99 @@
+*** NON-FATAL INTERNAL ERROR in Environment ***
+Date: May 22 2014 7:23 PM
+
+File Name: C:\Users\Omid\Desktop\turing.exe
+Version: 4.1.1
+File Size: 2441303
+File Date: May 22 2014 11:13 PM
+Operating System: Bad OS Value (0)
+JVM: "assert" Statements: enabled
+
+
+Previous Operations:
+
+
+
+The environment has experienced an unexpected internal error.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "C:\Users\Omid\Desktop\Turing\panic.log".
+
+If possible, please e-mail this file to readybugs@hsa.on.ca
+
+Here are some details about the error:
+   Error = Unable to load "C:\Users\Omid\Desktop\Support\Bin\lang.dll" (6057)
+   Windows error = The specified module could not be found. (126)
+   File = P:\ready\src\edprog.c
+   Line = 95
+
+List of Modules: 
+    C:\Users\Omid\Desktop\turing.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\SYSTEM32\KERNEL32.DLL
+    C:\Windows\SYSTEM32\KERNELBASE.dll
+    C:\Windows\system32\apphelp.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.9600.16384_none_7c55c866aa0c3ff0\COMCTL32.dll
+    C:\Windows\SYSTEM32\USER32.dll
+    C:\Windows\SYSTEM32\GDI32.dll
+    C:\Windows\SYSTEM32\comdlg32.dll
+    C:\Windows\SYSTEM32\ADVAPI32.dll
+    C:\Windows\SYSTEM32\SHELL32.dll
+    C:\Windows\SYSTEM32\WININET.dll
+    C:\Windows\SYSTEM32\msvcrt.dll
+    C:\Windows\SYSTEM32\WINMMBASE.dll
+    C:\Windows\SYSTEM32\SHLWAPI.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\SYSTEM32\RPCRT4.dll
+    C:\Windows\SYSTEM32\combase.dll
+    C:\Windows\SYSTEM32\iertutil.dll
+    C:\Windows\SYSTEM32\USERENV.dll
+    C:\Windows\SYSTEM32\cfgmgr32.dll
+    C:\Windows\SYSTEM32\DEVOBJ.dll
+    C:\Windows\SYSTEM32\SspiCli.dll
+    C:\Windows\SYSTEM32\profapi.dll
+    C:\Windows\SYSTEM32\SHCORE.DLL
+    C:\Windows\SYSTEM32\CRYPTBASE.dll
+    C:\Windows\SYSTEM32\bcryptPrimitives.dll
+    C:\Windows\system32\IMM32.DLL
+    C:\Windows\SYSTEM32\MSCTF.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\system32\ole32.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:776cd1bc Ret=76b9103d Frame=0018b0f0 Stack=0018b084
+    Parameters (0x0018b0c8 0x00003a98 0x00000000 0x0018d9a0)
+    Unknown module, NtWaitForSingleObject() + 0012 byte(s)
+  1 .V PC=0023:76b9103d Ret=0041d5f2 Frame=0018b104 Stack=0018b0f8
+    Parameters (0x0000019c 0x00003a98 0x0018e2ac 0x0018d9dc)
+    Unknown module, WaitForSingleObject() + 0018 byte(s)
+  2 .V PC=0023:0041d5f2 Ret=0041cbe4 Frame=0018d9a0 Stack=0018b10c
+    Parameters (0x00000000 0x000017a9 0x005257e0 0x0000005f)
+    Unknown module
+  3 .V PC=0023:0041cbe4 Ret=004268f3 Frame=0018d9c4 Stack=0018d9a8
+    Parameters (0x000017a9 0x005257e0 0x0000005f 0x0000007e)
+    Unknown module
+  4 .V PC=0023:004268f3 Ret=0041520e Frame=0018e2ac Stack=0018d9cc
+    Parameters (0x00000000 0x00000000 0xcccccccc 0xcccccccc)
+    Unknown module
+  5 .V PC=0023:0041520e Ret=00401126 Frame=0018fefc Stack=0018e2b4
+    Parameters (0x00400000 0x00000000 0x00852e3b 0x00000001)
+    Unknown module
+  6 .V PC=0023:00401126 Ret=76a6919f Frame=0018ff8c Stack=0018ff04
+    Parameters (0x7ffde000 0x0018ffdc 0x776da8cb 0x7ffde000)
+    Unknown module
+  7 .V PC=0023:76a6919f Ret=776da8cb Frame=0018ff98 Stack=0018ff94
+    Parameters (0x7ffde000 0x6e17a2e9 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0014 byte(s)
+  8 .V PC=0023:776da8cb Ret=776da8a1 Frame=0018ffdc Stack=0018ffa0
+    Parameters (0xffffffff 0x776cf67d 0x00000000 0x00000000)
+    Unknown module, RtlInitializeExceptionChain() + 0132 byte(s)
+  9 .V PC=0023:776da8a1 Ret=00000000 Frame=0018ffec Stack=0018ffe4
+    Parameters (0x00401000 0x7ffde000 0x00000000 0x78746341)
+    Unknown module, RtlInitializeExceptionChain() + 0090 byte(s)
+
+
+------------------------------------------------------
